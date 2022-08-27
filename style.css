@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;  
+  background: rgb(0,172,255);
+  background: linear-gradient(90deg, rgba(0,172,255,1) 0%, rgba(0,255,218,0.9836309523809523) 100%);
+}
+#calculator {
+  width: 400px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+  top: 40px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result {
+  height: 120px;
+  font-weight: 600;
+}
+#history {
+  text-align: right;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #636e72;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#keyboard {
+  height: 400px;
+  padding: 10px;
+}
+.operator, .number, .empty {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-size: 20px;
+}
+.number, .empty {
+  background: 0;
+}
+.operator:active, .number:active{
+  font-size: 15px;
+}
+.operator:focus, .number:focus, empty:focus{
+  outline: 0;
+}
+button:nth-child(4){
+  font-size: 20px;
+  background-color: #10ac84;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color: #fbc531;
+}
+button:nth-child(12){
+  font-size: 20px;
+  background-color: #1289A7;
+}
+button:nth-child(16){
+  font-size: 20px;
+  background-color: #F97F51;
+}
+button:nth-child(20){
+  font-size: 20px;
+  background-color: #32ff7e;
+}
+button:nth-child(1){
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+button:nth-child(2){
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+button:nth-child(3){
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
